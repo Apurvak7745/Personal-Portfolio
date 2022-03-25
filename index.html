@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Apurva Khandagale | Web Developer</title>
+  </head>
+
+  <body>
+    <nav>
+        <h1>Apurva Khandagale</h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+  </nav>
+
+  <section class="hero" id="about">
+    <img
+      src="photo.jpg.jpeg"
+      loading="lazy"
+      class="hero-img"
+    />
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">About Me</h2>
+      <p class="bio-text">
+        Hello!!! My name is Apurva Khandagale. I'm 21 yr old. 
+        I am persuing BE in Computer science from savitribai phule pune university.
+        There I learned a bit of subjects like C, CPP , Python and I score a CGPA of 9.36. 
+      </p>
+    </div>
+</section>
+
+<section class="more-about">
+  <br>
+  <h2>More About Me</h2>
+  <p>
+    While I don't have any real life work experience. 
+    
+  </p>
+  <p>
+    A lot of my courties involved working with companies to solve real world problems.
+    
+  </p>
+  <p>
+    I love photography and to love to play cricket, volleyball,etc.
+  </p>
+</section>
+
+<section class="skills" id="skills">
+  <h2 class="skill-header">My Top Skills</h2>
+
+  <div class="skills-wrapper">
+    <div class="first-set animate__animated animate__pulse">
+      <img
+        src="html.png"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+      <img
+        src="css.png"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+      <img
+        src="javascript.png"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+    </div>
+
+    <div class="second-set animate__animated animate__pulse">
+      <img
+        src="bootstrap.png"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+      <img
+        src="react-native.png"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+      <img
+        src="git.png"
+        alt=""
+        loading="lazy"
+        class="icon icon-card"
+      />
+    </div>
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <h2 class="projects-title">Some of my Recent Projects</h2>
+  <div class="projects-container">
+    <div class="project-container project-card">
+      <img
+        src="AI.png"
+        
+        
+        class="project-pic"
+      />
+      <h3 class="project-title">AI Assistant</h3>
+      <p class="project-details">
+        I cerated a Artificial intelligent Assistant in python . It can
+        help us in various works such that jokes , news , google search etc.
+        It also do some of the system works such as reboot , shut down , sleep ,etc.
+      </p>
+      <a href="#" target="_blank" class="project-link">Check it Out</a>
+    </div>
+    <div class="project-container project-card">
+      <img
+        src="netflix.png"
+        alt="netflic-clone"
+        
+        class="project-pic"
+      />
+      <h3 class="project-title">Netflix Clone</h3>
+      <p class="project-details">
+        This is the Netflix Bot Created by me with the react .
+        which react like real Netflix . You can binge watch Netflix using this Bot.
+        It also refers new shows of netflix to the user and also take the feedback of user.
+      </p>
+      <a href="#" target="_blank" class="project-link">Check it Out</a>
+    </div>
+    <div class="project-container project-card">
+      <img
+        src="green.png"
+        alt="greeny-earth"
+        
+        class="project-pic"
+      />
+      <h3 class="project-title">Greeny Earth</h3>
+      <p class="project-details">
+        This project deals with the Forest and the green resourse to find the resourses Geo-locative Map system based on Google Map.
+      </p>
+      <a href="#" target="_blank" class="project-link">Check it Out</a>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Get In Touch With Me</h2>
+  <div class="contact-form-container">
+    <div class="contact-form">
+      <form action="https://formspree.io/f/xyylngw" method="POST">
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="sender-name"
+            placeholder="Enter Your Name"
+            class="input-field"
+            required
+          />
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="sender-email"
+            placeholder="Enter Your Email"
+            class="input-field"
+            required
+          />
+        </div>
+        <div class="form-control">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            cols="60"
+            rows="10"
+            placeholder="Enter Your Message"
+            name="message"
+            class="input-field"
+            required
+          ></textarea>
+        </div>
+        <input
+          type="submit"
+          value="Submit"
+          id="submit-btn"
+          class="submit-btn"
+        />
+      </form>
+    </div>
+  </div>
+</section>
+
+<div class="socials">
+  <a href="#" target="_blank"
+    ><img
+      src="twitter.png"
+      alt="Twitter"
+      loading="lazy"
+      class="socicon"
+  /></a>
+  <a href="#" target="_blank"
+    ><img
+      src="instagram.png"
+      alt="Instagram"
+      loading="lazy"
+      class="socicon"
+  /></a>
+  <a href="#" target="_blank"
+    ><img
+      src="linkedin.png"
+      alt="Linkedin"
+      loading="lazy"
+      class="socicon"
+  /></a>
+  <a href="#" target="_blank"
+    ><img src="github.png" alt="Github" class="socicon"
+  /></a>
+
+  <i class="scroll-up" id="scroll-up"
+  ><img
+    src="up.png"
+    class="socicon up-arrow"
+    alt="scroll-up"
+/></i> </div>
+
+    <footer>
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="" target="_blank"
+          >Apurva Khandagale</a
+        >
+      </p>
+</footer>
+
+    <!-- Website scripts -->
+   
+
+    <!-- Ion icons scripts -->
+
+  </body>
+</html>
